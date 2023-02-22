@@ -1,0 +1,82 @@
+BASIC GIT COMMANDS
+pwd-present working directory(the directory in which we are working)
+$ pwd
+
+git version-tells about the version of git of our system
+$git version
+
+git config - used to provide information about the signed email id and username
+$ git config --global user.email" "
+
+$ git config --global user.name"  "
+in return will provide us with the signed in username and user email
+
+git init- initilaize an empty repository
+$ git init
+
+touch- used to create a folder
+$touch anc.txt
+will creare a file if a file has not been created
+
+vi-used to add items in folder
+$ vi anc.txt
+
+wq=save and quit. afetr adding the items in a file, we press the escape button
+and use wq command to save and quit
+$:wq
+
+ls-shows list of all folders
+$ ls
+will return us with the list of all the folders we have created
+
+status- shows track list of all files
+$git status
+
+cat- to display contents of the file
+$ cat anc.txt
+
+log- shows the time and date of any sort of modification done
+$git log
+
+commit- to save the changes
+$ git commit -m "commit1:addition of words"
+$ git commit -a -m "commit2:addition of lines"
+
+ls -ah=  shows the  hidden attributes 
+$ls -ah
+
+mkdir-to make a directory
+$mkdir
+
+col- to go inside that directory
+
+cd c- to move form one directory to another
+$cd c
+
+cd ..= used to go out of that file
+$ cd ..
+
+history= provides us with the collection of all snapshots
+$ history
+
+add= to track the files created
+$ git add abc.txt
+
+clone= to upload files from local machine to github(in the repository we created)
+$git clone <url of the repository>
+
+git reomte add origin= creates a remote connection to the cloned repository
+$ git remote add origin <url of the repository>
+
+git push =pushes all the data from the file we created on the local machine to the github repository ,where master is the main repositroy and origin is the link of the github repository)
+$ git push -u origin master
+
+git branch=creates a new branch
+$ git branch <name u want to give>
+
+git checkout=switches to the mentioned branch
+$git checkout <name of the branch>
+
+git remove remove origin= breaks the remote connection to the cloned repository
+$git remote remove origin
+
